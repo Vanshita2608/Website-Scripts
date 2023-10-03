@@ -1,0 +1,21 @@
+<html>
+<body>
+ 
+Enter your name: <input type="text" id="myInput" onfocus="focusFunction()" onblur="blurFunction()">
+
+<script>
+function focusFunction()
+{
+    // Focus = Changes the background color of input to yellow
+    document.getElementById("myInput").style.background = "pink";
+}
+
+function blurFunction() 
+{
+    // No focus = Changes the background color of input to red
+    document.getElementById("myInput").style.background = "powderblue";
+}
+</script>
+
+</body>
+</html>

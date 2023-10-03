@@ -1,0 +1,22 @@
+<html>
+<script>  
+         function validateform()
+        {  
+            var name1=document.getElementById("t1").value;  
+                    if (name1=="")
+                   {  
+  	      		alert("enter valid"); 
+  	  		 }  
+	  		   else
+ 	 		 {
+                      alert("successfull");  
+                   }
+       }
+</script>
+  
+<body>  
+<form name="myform" method="post" >  
+Name: <input type="text" id="t1"><br/>  
+<input type="submit" value="register" onclick="validateform()">  
+</form>  
+</body>
